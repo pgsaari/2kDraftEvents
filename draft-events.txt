@@ -1,18 +1,18 @@
 Event probabilities:
 
-
 Draft picks 1-5 odds of an event occurring 1 out of 5
 Draft picks 6-15 odds of an event occurring 1 out of 4
 Draft picks 16-30 odds of an event occurring 1 out of 3
-Draft picks 31-60 odds of an event occurring 1 out of 2 Events:
+Draft picks 31-60 odds of an event occurring 1 out of 2 
+
+Events:
 
 -Possible events for picks 1-5 
-1. Works his ass off after the draft (choice of +1 potential or add one silver badge) 
-2. Get's distracted and goofs off after draft (decrease potential -1) 
-3. Meshes perfectly with teammates and coach (choice of +2 potential or
- add two silver badges) 
- 4. Bad team chemistry and coach regrets the pick (decrease potential -2) 
- 5. Future face of the league (+5 Potential or 95 whichever is lower)
+        1. Works his ass off after the draft (choice of +1 potential or add one silver badge) 
+        2. Get's distracted and goofs off after draft (decrease potential -1) 
+3. Meshes perfectly with teammates and coach (choice of +2 potential or add two silver badges) 
+4. Bad team chemistry and coach regrets the pick (decrease potential -2) 
+5. Future face of the league (+5 Potential or 95 whichever is lower)
 
 
 -Possible events for picks 6-15 and 16-30 
@@ -20,11 +20,11 @@ Draft picks 31-60 odds of an event occurring 1 out of 2 Events:
 2. Unhappy with team that drafted him (decrease potential -1) 
 3. Meshes perfectly with teammates and coach (increase potential +1) 
 4. Get's distracted and goofs off after draft (decrease potential -1) 
- 5. Excels in Summer League (increase potential +2) 
- 6. Can't get used to speed of the NBA (decrease potential -2) 
- 7. Bad team chemistry and coach regrets the pick (decrease potential -3) 
- 8. New Coach helps him improve part of his game (increase potential +3) 
- 9. No change 10. Draft day steal (increase potential to 90)
+5. Excels in Summer League (increase potential +2) 
+6. Can't get used to speed of the NBA (decrease potential -2) 
+7. Bad team chemistry and coach regrets the pick (decrease potential -3) 
+8. New Coach helps him improve part of his game (increase potential +3) 
+9. No change 10. Draft day steal (increase potential to 90)
 
 -Possible events for picks 31-60 
 1. Role player (Potential of +4 of drafted overall but no higher than 78) 

@@ -1,0 +1,10 @@
+[
+    {
+        "probability": 0.2,
+        "pickRange" : [1,5],
+        "draftEvents" : [
+            { "description": "Works his ass off after the draft", "effect": "choice of +1 potential or add one silver badge" },
+            { "description": "Get's distracted and goofs off after draft", "effect": "decrease potential -1" }
+        ]
+    }
+]
