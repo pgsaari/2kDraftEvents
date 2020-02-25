@@ -9,3 +9,6 @@ C:\Users\ocfli\Documents\Code\2K_Draft\2KDraftEvents\obj\Debug\netcoreapp3.0\2KD
 C:\Users\ocfli\Documents\Code\2K_Draft\2KDraftEvents\obj\Debug\netcoreapp3.0\2KDraftEvents.AssemblyInfo.cs
 C:\Users\ocfli\Documents\Code\2K_Draft\2KDraftEvents\obj\Debug\netcoreapp3.0\2KDraftEvents.dll
 C:\Users\ocfli\Documents\Code\2K_Draft\2KDraftEvents\obj\Debug\netcoreapp3.0\2KDraftEvents.pdb
+C:\Users\ocfli\Documents\Code\2K_Draft\2kdraftevents\bin\Debug\netcoreapp3.0\CsvHelper.dll
+C:\Users\ocfli\Documents\Code\2K_Draft\2kdraftevents\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\ocfli\Documents\Code\2K_Draft\2kdraftevents\obj\Debug\netcoreapp3.0\2KDraftEvents.csproj.CopyComplete
