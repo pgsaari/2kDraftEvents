@@ -14,18 +14,31 @@ namespace _2KDraftEvents
         {
             var players = GetPlayers();
             var events = GetDraftEvents();
-            foreach (var p in players)
+            var random = new Random();
+            
+            for (int i = 0; i < 60; i++)
             {
-                Console.WriteLine(p.DraftPosition + " " + p.Name);
-            }
-            foreach (var e in events)
-            {
-                Console.WriteLine("Prob: {0} Picks {1} - {2} ", e.Probability, e.PickRange[0], e.PickRange[1]);
-                foreach (var ef in e.DraftEvents)
-                {
-                    Console.WriteLine("{0} ({1})", ef.Description, ef.Effect);
+                var p = players[i];
+                var eg = events.First(x => x.MinPick <= (i+1) && x.MaxPick >= (i+1));
+                
+                Console.WriteLine("Drafted at pick " + p.DraftPosition + ": " + p.Name);
+                if(random.NextDouble() < eg.Probability) {
+                    int randomInt = random.Next(eg.DraftEvents.Count -1);
+                    var e = eg.DraftEvents[randomInt];
+                    Console.WriteLine("{0} ({1})", e.Description, e.Effect);
+                }
+                else {
+                    Console.WriteLine("No Draft Event");
                 }
             }
+            // foreach (var e in events)
+            // {
+            //     Console.WriteLine("Prob: {0} Picks {1} - {2} ", e.Probability, e.PickRange[0], e.PickRange[1]);
+            //     foreach (var ef in e.DraftEvents)
+            //     {
+            //         Console.WriteLine("{0} ({1})", ef.Description, ef.Effect);
+            //     }
+            // }
         }
 
         private static List<DraftEventGroup> GetDraftEvents()

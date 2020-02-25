@@ -4,7 +4,99 @@
         "pickRange" : [1,5],
         "draftEvents" : [
             { "description": "Works his ass off after the draft", "effect": "choice of +1 potential or add one silver badge" },
-            { "description": "Get's distracted and goofs off after draft", "effect": "decrease potential -1" }
+            { "description": "Get's distracted and goofs off after draft", "effect": "decrease potential -1" },
+            { "description": "Meshes perfectly with teammates and coach", "effect": "choice of +2 potential or add two silver badges" },
+            { "description": "Bad team chemistry and coach regrets the pick", "effect": "decrease potential -2" },
+            { "description": "Future face of the league", "effect": "+5 Potential or 95 whichever is lower" }
+        ]
+    },
+    {
+        "probability": 0.25,
+        "pickRange": [6,15],
+        "draftEvents": [
+            { "description": "Works his ass off after the draft", "effect": "increase potential +1" },
+            { "description": "Unhappy with team that drafted him", "effect": "decrease potential -1" },
+            { "description": "Meshes perfectly with teammates and coach", "effect": "increase potential +1" },
+            { "description": "Get's distracted and goofs off after draft", "effect": "decrease potential -1" },
+            { "description": "Excels in Summer League", "effect": "increase potential +2" },
+            { "description": "Can't get used to speed of the NBA ", "effect": "decrease potential -2" },
+            { "description": "Bad team chemistry and coach regrets the pick", "effect": "decrease potential -3" },
+            { "description": "New Coach helps him improve part of his game", "effect": "increase potential +3" },
+            { "description": "No change" },
+            { "description": "Draft day steal", "effect": "increase potential to 90" }
+        ]
+    },
+    {
+        "probability": 0.333,
+        "pickRange": [16,30],
+        "draftEvents": [
+            { "description": "Works his ass off after the draft", "effect": "increase potential +1" },
+            { "description": "Unhappy with team that drafted him", "effect": "decrease potential -1" },
+            { "description": "Meshes perfectly with teammates and coach", "effect": "increase potential +1" },
+            { "description": "Get's distracted and goofs off after draft", "effect": "decrease potential -1" },
+            { "description": "Excels in Summer League", "effect": "increase potential +2" },
+            { "description": "Can't get used to speed of the NBA ", "effect": "decrease potential -2" },
+            { "description": "Bad team chemistry and coach regrets the pick", "effect": "decrease potential -3" },
+            { "description": "New Coach helps him improve part of his game", "effect": "increase potential +3" },
+            { "description": "No change" },
+            { "description": "Draft day steal", "effect": "increase potential to 90" }
+        ]
+    },
+    {
+        "probability": 0.5,
+        "pickRange": [31,39],
+        "draftEvents": [
+            { "description": "Role player", "effect": "Potential of +4 of drafted overall but no higher than 78" },
+            { "description": "Role player", "effect": "Potential of +4 of drafted overall but no higher than 78" },
+            { "description": "Role player", "effect": "Potential of +4 of drafted overall but no higher than 78" },
+            { "description": "Role player", "effect": "Potential of +4 of drafted overall but no higher than 78" },
+            { "description": "Ehh player", "effect": "Potential of +2 of drafted overall but no higher than 76" },
+            { "description": "Ehh player", "effect": "Potential of +2 of drafted overall but no higher than 76" },
+            { "description": "Ehh player", "effect": "Potential of +2 of drafted overall but no higher than 76" },
+            { "description": "Ehh player", "effect": "Potential of +2 of drafted overall but no higher than 76" },
+            { "description": "Bust", "effect": "No potential beyond drafted overall" },
+            { "description": "Bust", "effect": "No potential beyond drafted overall" },
+            { "description": "Bust", "effect": "No potential beyond drafted overall" },
+            { "description": "Bust", "effect": "No potential beyond drafted overall" },
+            { "description": "Bust", "effect": "No potential beyond drafted overall" },
+            { "description": "Bust", "effect": "No potential beyond drafted overall" },
+            { "description": "Bust", "effect": "No potential beyond drafted overall" },
+            { "description": "Bust", "effect": "No potential beyond drafted overall" },
+            { "description": "Bust", "effect": "No potential beyond drafted overall" },
+            { "description": "Gm got lucky!", "effect": "+4 potential or at least 78 whichever is higher" },
+            { "description": "Solid starter in the making", "effect": "+6 potential or at least 82 whichever is higher" },
+            { "description": "A true hidden gem", "effect": "86 potential" }
+        ]
+    },
+    {
+        "probability": 0.5,
+        "pickRange": [40,60],
+        "draftEvents": [
+            { "description": "Role player", "effect": "Potential of +4 of drafted overall but no higher than 78" },
+            { "description": "Role player", "effect": "Potential of +4 of drafted overall but no higher than 78" },
+            { "description": "Role player", "effect": "Potential of +4 of drafted overall but no higher than 78" },
+            { "description": "Role player", "effect": "Potential of +4 of drafted overall but no higher than 78" },
+            { "description": "Ehh player", "effect": "Potential of +2 of drafted overall but no higher than 76" },
+            { "description": "Ehh player", "effect": "Potential of +2 of drafted overall but no higher than 76" },
+            { "description": "Ehh player", "effect": "Potential of +2 of drafted overall but no higher than 76" },
+            { "description": "Ehh player", "effect": "Potential of +2 of drafted overall but no higher than 76" },
+            { "description": "Bust", "effect": "No potential beyond drafted overall" },
+            { "description": "Bust", "effect": "No potential beyond drafted overall" },
+            { "description": "Bust", "effect": "No potential beyond drafted overall" },
+            { "description": "Bust", "effect": "No potential beyond drafted overall" },
+            { "description": "Bust", "effect": "No potential beyond drafted overall" },
+            { "description": "Bust", "effect": "No potential beyond drafted overall" },
+            { "description": "Bust", "effect": "No potential beyond drafted overall" },
+            { "description": "Bust", "effect": "No potential beyond drafted overall" },
+            { "description": "Bust", "effect": "No potential beyond drafted overall" },
+            { "description": "Gm got lucky!", "effect": "+4 potential or at least 78 whichever is higher" },
+            { "description": "Solid starter in the making", "effect": "+6 potential or at least 82 whichever is higher" },
+            { "description": "A true hidden gem", "effect": "86 potential" },
+            { "description": "Player never plays in the NBA", "effect": "immediate drop to 40 overall" },
+            { "description": "Player never plays in the NBA", "effect": "immediate drop to 40 overall" },
+            { "description": "Player never plays in the NBA", "effect": "immediate drop to 40 overall" },
+            { "description": "Player never plays in the NBA", "effect": "immediate drop to 40 overall" },
+            { "description": "Player never plays in the NBA", "effect": "immediate drop to 40 overall" }
         ]
     }
 ]
