@@ -6,14 +6,11 @@ Modify the players.csv file
 
 You can do this in excel, there needs to be two columns
 
-DraftPostiion | Name
----------------------
-1             | Mike Dunleavy
-----------------------
-2             | Brandon Jennings
-----------------------
-3             | Lebron James
------------------------
+| DraftPostion  | Name  |   
+|---|---|
+| 1 |  Mike Dunleavy |
+| 2 |  Brandon Jennings |
+| 3 |  Lebron James |
 
 ... and so on, there needs to be 60 players, so 61 rows including the header.
 
