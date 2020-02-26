@@ -25,20 +25,13 @@ namespace _2KDraftEvents
                 if(random.NextDouble() < eg.Probability) {
                     int randomInt = random.Next(eg.DraftEvents.Count -1);
                     var e = eg.DraftEvents[randomInt];
-                    Console.WriteLine("{0} ({1})", e.Description, e.Effect);
+                    Console.WriteLine("{0} ({1})\n", e.Description, e.Effect);
                 }
                 else {
-                    Console.WriteLine("No Draft Event");
+                    Console.WriteLine("No Draft Event\n");
                 }
             }
-            // foreach (var e in events)
-            // {
-            //     Console.WriteLine("Prob: {0} Picks {1} - {2} ", e.Probability, e.PickRange[0], e.PickRange[1]);
-            //     foreach (var ef in e.DraftEvents)
-            //     {
-            //         Console.WriteLine("{0} ({1})", ef.Description, ef.Effect);
-            //     }
-            // }
+            Console.ReadKey();
         }
 
         private static List<DraftEventGroup> GetDraftEvents()
